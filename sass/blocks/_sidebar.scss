@@ -1,0 +1,26 @@
+.sidebar {
+	background-color: #1e2939;
+	padding-top: 307px;
+	width: 370px;
+	color: #ffffff;
+
+	&_blocks {
+		margin-left: 40px;
+		margin-bottom: 50px;
+	}
+	&_title {
+		font-weight: 700;
+		font-size: 22px;
+		margin-bottom: 10px;
+	}
+	.icon {
+		width: 16px;
+		height: 16px;
+		margin-right: 10px;
+	}
+	&_list {
+		font-weight: 400;
+		font-size: 14px;
+		line-height: 24px;
+	}
+}

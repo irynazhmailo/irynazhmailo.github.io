@@ -1,0 +1,26 @@
+@import "base/variables";
+* {
+	font-family: "Montserrat", sans-serif;
+}
+.container {
+	display: flex;
+	flex-direction: row-reverse;
+	background-color: #ffffff;
+	box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.link {
+	font-weight: 400;
+	font-size: 14px;
+	color: $second-color;
+	text-decoration: none;
+	margin-left: 15px;
+	&_white {
+		color: #ffffff;
+		text-decoration: none;
+	}
+}
+
+@import "blocks/main";
+@import "blocks/sidebar";

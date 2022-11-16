@@ -1,0 +1,85 @@
+.main {
+	background-color: #f5f7fa;
+	padding: 105px 90px;
+	&_about {
+		&_subtitle {
+			font-weight: 700;
+			font-size: 14px;
+			color: #000000;
+		}
+		&_title {
+			font-weight: 700;
+			font-size: 45px;
+			color: #000000;
+			margin-top: 20px;
+			margin-bottom: 24px;
+		}
+		&_descr {
+			font-weight: 400;
+			font-size: 14px;
+			color: $main-color;
+			width: 340px;
+		}
+	}
+	&_projects {
+		margin-top: 40px;
+		&_list {
+			font-weight: 700;
+			font-size: 14px;
+			line-height: 24px;
+			color: #000000;
+			padding-left: 15px;
+		}
+	}
+	&_paragraph {
+		font-weight: 700;
+		font-size: 22px;
+		color: #000000;
+	}
+	&_work {
+		margin-top: 50px;
+		&_place {
+			&_position {
+				margin: 10px auto;
+				font-weight: 700;
+				font-size: 16px;
+				color: #000000;
+				span {
+					color: $second-color;
+				}
+			}
+			&_date {
+				font-weight: 400;
+				font-size: 12px;
+				color: #a8a8a8;
+			}
+			&_descr {
+				font-weight: 400;
+				font-size: 14px;
+				line-height: 24px;
+				color: #595959;
+			}
+		}
+	}
+	&_education {
+		margin-top: 50px;
+		font-weight: 700;
+		&_name {
+			font-size: 16px;
+			color: #fb6d3a;
+			// margin: 10px auto;
+			margin-bottom: 10px;
+		}
+		&_subname {
+			font-size: 14px;
+			color: #000000;
+			margin-bottom: 10px;
+		}
+		&_descr {
+			font-weight: 400;
+			font-size: 12px;
+			line-height: 15px;
+			color: #a8a8a8;
+		}
+	}
+}

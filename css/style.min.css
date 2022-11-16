@@ -1,0 +1,133 @@
+* {
+	font-family: "Montserrat", sans-serif;
+}
+.container {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: reverse;
+	-ms-flex-direction: row-reverse;
+	flex-direction: row-reverse;
+	background-color: #fff;
+	-webkit-box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+	box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.link {
+	font-weight: 400;
+	font-size: 14px;
+	color: #fb6d3a;
+	text-decoration: none;
+	margin-left: 15px;
+}
+.link_white {
+	color: #fff;
+	text-decoration: none;
+}
+.main {
+	background-color: #f5f7fa;
+	padding: 105px 90px;
+}
+.main_about_subtitle {
+	font-weight: 700;
+	font-size: 14px;
+	color: #000;
+}
+.main_about_title {
+	font-weight: 700;
+	font-size: 45px;
+	color: #000;
+	margin-top: 20px;
+	margin-bottom: 24px;
+}
+.main_about_descr {
+	font-weight: 400;
+	font-size: 14px;
+	color: #595959;
+	width: 340px;
+}
+.main_projects {
+	margin-top: 40px;
+}
+.main_projects_list {
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 24px;
+	color: #000;
+	padding-left: 15px;
+}
+.main_paragraph {
+	font-weight: 700;
+	font-size: 22px;
+	color: #000;
+}
+.main_work {
+	margin-top: 50px;
+}
+.main_work_place_position {
+	margin: 10px auto;
+	font-weight: 700;
+	font-size: 16px;
+	color: #000;
+}
+.main_work_place_position span {
+	color: #fb6d3a;
+}
+.main_work_place_date {
+	font-weight: 400;
+	font-size: 12px;
+	color: #a8a8a8;
+}
+.main_work_place_descr {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
+	color: #595959;
+}
+.main_education {
+	margin-top: 50px;
+	font-weight: 700;
+}
+.main_education_name {
+	font-size: 16px;
+	color: #fb6d3a;
+	margin-bottom: 10px;
+}
+.main_education_subname {
+	font-size: 14px;
+	color: #000;
+	margin-bottom: 10px;
+}
+.main_education_descr {
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 15px;
+	color: #a8a8a8;
+}
+.sidebar {
+	background-color: #1e2939;
+	padding-top: 307px;
+	width: 370px;
+	color: #fff;
+}
+.sidebar_blocks {
+	margin-left: 40px;
+	margin-bottom: 50px;
+}
+.sidebar_title {
+	font-weight: 700;
+	font-size: 22px;
+	margin-bottom: 10px;
+}
+.sidebar .icon {
+	width: 16px;
+	height: 16px;
+	margin-right: 10px;
+}
+.sidebar_list {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
+}
